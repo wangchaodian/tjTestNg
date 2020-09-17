@@ -1,4 +1,10 @@
 eclipse.preferences.version=1
 encoding//src/main/java=UTF-8
+encoding//src/main/java/Sql/DBProxy.java=UTF-8
+encoding//src/main/java/Sql/GenericDaoHelper.java=UTF-8
+encoding//src/main/java/Sql/PGProxy.java=UTF-8
+encoding//src/main/java/Sql/PptInsert.java=UTF-8
+encoding//src/main/java/Sql/Proxy.java=UTF-8
+encoding//src/main/java/Sql/TypeConverter.java=UTF-8
 encoding//src/test/java=UTF-8
 encoding/<project>=UTF-8
