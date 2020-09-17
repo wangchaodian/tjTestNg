@@ -1,0 +1,21 @@
+<?xml version="1.0" encoding="UTF-8"?>
+<!DOCTYPE suite SYSTEM "http://testng.org/testng-1.0.dtd">
+<suite verbose="0" name="Failed suite [测试套件]">
+  <listeners>
+    <listener class-name="com.vimalselvam.testng.listener.ExtentTestNgFormatter"/>
+  </listeners>
+  <test name="TJWebUI">
+    <classes>
+      <class name="com.tj.testCases.DataCheck"/>
+    </classes>
+  </test> <!-- TJWebUI -->
+  <test name="TJWebUI(failed)">
+    <classes>
+      <class name="com.tj.testCases.DataCheck">
+        <methods>
+          <include name="tjTest"/>
+        </methods>
+      </class> <!-- com.tj.testCases.DataCheck -->
+    </classes>
+  </test> <!-- TJWebUI(failed) -->
+</suite> <!-- Failed suite [测试套件] -->

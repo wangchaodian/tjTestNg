@@ -1,0 +1,10 @@
+-------------------------------------------------------------------------------
+Test set: TestSuite
+-------------------------------------------------------------------------------
+Tests run: 1, Failures: 1, Errors: 0, Skipped: 0, Time elapsed: 0.704 s <<< FAILURE! - in TestSuite
+tjTest(com.tj.testCases.DataCheck)  Time elapsed: 0.028 s  <<< FAILURE!
+java.lang.NoClassDefFoundError: com/alibaba/druid/pool/DruidDataSource
+	at com.tj.testCases.DataCheck.tjTest(DataCheck.java:12)
+Caused by: java.lang.ClassNotFoundException: com.alibaba.druid.pool.DruidDataSource
+	at com.tj.testCases.DataCheck.tjTest(DataCheck.java:12)
+
